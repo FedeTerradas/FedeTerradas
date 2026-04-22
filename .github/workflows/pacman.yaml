@@ -1,0 +1,26 @@
+name: Generate Pacman
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs every 24 hours
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Pacman Animation
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/pacman.svg?color_snake=#f7d358&color_dots=#bfd6f6,#8db1e2,#23395d,#161b22&snake_type=pacman
+            dist/pacman-dark.svg?color_snake=#f7d358&color_dots=#bfd6f6,#8db1e2,#23395d,#161b22&snake_type=pacman&palette=github-dark
+
+      - name: Push to Output Branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
