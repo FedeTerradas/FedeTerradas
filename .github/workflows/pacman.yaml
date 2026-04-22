@@ -2,7 +2,7 @@ name: Generate Pacman
 
 on:
   schedule:
-    - cron: "0 0 * * *" # Runs every 24 hours
+    - cron: "0 0 * * *" 
   workflow_dispatch:
 
 jobs:
@@ -14,8 +14,8 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/pacman.svg?color_snake=#f7d358&color_dots=#bfd6f6,#8db1e2,#23395d,#161b22&snake_type=pacman
-            dist/pacman-dark.svg?color_snake=#f7d358&color_dots=#bfd6f6,#8db1e2,#23395d,#161b22&snake_type=pacman&palette=github-dark
+            dist/pacman-contribution-graph.svg?snake_type=pacman
+            dist/pacman-contribution-graph-dark.svg?snake_type=pacman&color_dots=#161b22,#0e4429,#006d32,#26a641,#39d353&palette=github-dark
 
       - name: Push to Output Branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
