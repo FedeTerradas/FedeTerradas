@@ -44,8 +44,8 @@
 </picture>
 
 <br />
-<a href="https://github.com/anuraghazra/github-readme-stats">
-  <img src="https://github-readme-stats.vercel.app/api?username=FedeTerradas&theme=tokyonight&show_icons=true&hide_border=true&bg_color=00000000" alt="Federico's GitHub Stats" />
+<a href="https://github.com/stats-organization/github-stats-extended">
+  <img src="https://github-stats-extended.vercel.app/api?username=FedeTerradas&theme=tokyonight&show_icons=true&hide_border=true&bg_color=00000000" alt="Federico's GitHub Stats" />
 </a>
 
 </div>
