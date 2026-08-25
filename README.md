@@ -45,7 +45,7 @@
 
 <br />
 <a href="https://github.com/stats-organization/github-stats-extended">
-  <img src="https://github-stats-extended.vercel.app/api?username=FedeTerradas&theme=tokyonight&show_icons=true&hide_border=true&bg_color=00000000" alt="Federico's GitHub Stats" />
+  <img src="https://github-stats-extended.vercel.app/api?username=FedeTerradas&rank_icon=github&custom_title=My%20Github%20Stats&show_icons=true&include_all_commits=true&theme=highcontrast" alt="My Github Stats" />
 </a>
 
 </div>
