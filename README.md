@@ -44,8 +44,8 @@
 </picture>
 
 <br />
-<a href="https://github.com/ashutosh00710/github-readme-activity-graph">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=FedeTerradas&theme=tokyonight&hide_border=true&bg_color=FFFFFF00" alt="Federico's github activity graph" />
+<a href="https://github.com/anuraghazra/github-readme-stats">
+  <img src="https://github-readme-stats.vercel.app/api?username=FedeTerradas&theme=tokyonight&show_icons=true&hide_border=true&bg_color=00000000" alt="Federico's GitHub Stats" />
 </a>
 
 </div>
