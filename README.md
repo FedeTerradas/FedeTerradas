@@ -24,14 +24,14 @@
 #### 🖲️ My Tech  
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,supabase,sqlite,vscode" />
+    <img src="https://skillicons.dev/icons?i=git,postgresql,sqlite,vscode" />
   </a>
 </p>
 
 #### 📚 Learning 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind" />
   </a>
 </p>
 
